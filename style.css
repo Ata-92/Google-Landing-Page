@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: inline;
+    margin: 1rem;
+}
+
+.header-left {
+    float: left;
+    margin: 1.8rem;
+}
+
+.header-right {
+    float: right;
+}
+
+a {
+    margin: 0 1rem;
+}
+
+a:link {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#app {
+    position: relative;
+    top: .5rem;
+    opacity: .5;
+}
+
+#app:hover {
+    opacity: 1;
+}
+
+#signin {
+    color: white;
+    background-color: #4285F4;
+    padding: .5rem 1rem;
+}
+
+h1 {
+    position: relative;
+    top: 15rem;
+    left: 27rem;
+}
+
+div {
+    margin: auto;
+    width: 50rem;
+}
+
+#q {
+    width: 30rem;
+    height: 3rem;
+    margin: auto;
+    
+}
+
+#mag {
+    width: 2rem;
+} 
+
+#mic {
+    width: 1rem;
+}
+
+.submitboxes {
+    /* display: block; */
+}
+
+
+
+
+
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
